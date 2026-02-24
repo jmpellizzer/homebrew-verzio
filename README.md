@@ -7,7 +7,7 @@ Official [Homebrew](https://brew.sh) cask for [Verzio](https://verzio.pro) -- yo
 First, add the tap:
 
 ```sh
-brew tap jmpellizzer/verzio
+brew tap verzio-pro/tap
 ```
 
 Then install Verzio:
