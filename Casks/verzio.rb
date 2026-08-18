@@ -8,7 +8,7 @@ cask "verzio" do
   sha256 arm:   "98437c32664b9d2ca7a5e563b5bbfc77e4faff1ce59e7017c225efd9f8f0b693",
          intel: "7aa2942136e3543a9f859c116927eeabd3e61ac671a135272c54b9b6971e812c"
 
-  url "https://github.com/jmpellizzer/Verzio/releases/download/v#{version}/Verzio-#{arch}.zip"
+  url "https://lffzrrxydtgtmfslfzun.supabase.co/storage/v1/object/public/verzio-releases/Verzio-#{version}-#{arch}.zip"
   name "Verzio"
   desc "App update manager"
   homepage "https://github.com/jmpellizzer/Verzio"
