@@ -13,7 +13,7 @@ cask "verzio" do
   desc "App update manager"
   homepage "https://github.com/jmpellizzer/Verzio"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Verzio.app"
 
