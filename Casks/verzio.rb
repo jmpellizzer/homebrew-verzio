@@ -11,7 +11,7 @@ cask "verzio" do
   url "https://lffzrrxydtgtmfslfzun.supabase.co/storage/v1/object/public/verzio-releases/Verzio-#{version}-#{arch}.zip"
   name "Verzio"
   desc "App update manager"
-  homepage "https://github.com/jmpellizzer/Verzio"
+  homepage "https://verzio.pro"
 
   depends_on macos: :sonoma
 
