@@ -13,6 +13,11 @@ cask "verzio" do
   desc "App update manager"
   homepage "https://verzio.pro/"
 
+  livecheck do
+    url "https://verzio.pro/changelog/"
+    regex(/Verzio[._\s-]+v?(\d+(?:\.\d+)+)/i)
+  end
+
   depends_on macos: :sonoma
 
   app "Verzio.app"
