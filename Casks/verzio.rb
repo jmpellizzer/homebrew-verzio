@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 cask "verzio" do
-  arch arm: "arm64", intel: "x86_64"
+  arch arm: "arm64", intel: "37339989d4a956d3c6e720a613caa4fd3bc734c5e44f8933a4ed5fc4877886c1"
 
-  version "1.1.22"
-  sha256 arm:   "98437c32664b9d2ca7a5e563b5bbfc77e4faff1ce59e7017c225efd9f8f0b693",
-         intel: "7aa2942136e3543a9f859c116927eeabd3e61ac671a135272c54b9b6971e812c"
+  version "1.1.25"
+  sha256 arm:   "710a41a7fc04d6432606d8bf938488592e8ed10853beb6b44ba962484e47904b",
+         intel: "37339989d4a956d3c6e720a613caa4fd3bc734c5e44f8933a4ed5fc4877886c1"
 
   url "https://lffzrrxydtgtmfslfzun.supabase.co/storage/v1/object/public/verzio-releases/Verzio-#{version}-#{arch}.zip"
   name "Verzio"
